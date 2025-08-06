@@ -37,16 +37,17 @@ export default function Header() {
         {/* Logo dan Judul */}
         <div className="flex items-center gap-3">
           <Image
-            src="/assets/logo-desa.png"
-            alt="Logo Desa Menur"
+            src="/assets/logoDesa.png"
+            alt="Logo Desa Suradadi"
             width={90}
             height={40}
             priority
+            className='rounded-full'
           />
           <div className="flex flex-col text-white md:text-white">
-            <h1 className="text-lg font-semibold">Desa Menur</h1>
+            <h1 className="text-lg font-semibold">Desa Suradadi</h1>
             <p className="text-sm text-white md:text-gray-200">
-              Website Resmi Pemerintah Desa Menur
+              Website Resmi Pemerintah Desa Suradadi
             </p>
           </div>
         </div>

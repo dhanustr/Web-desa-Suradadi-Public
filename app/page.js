@@ -15,6 +15,7 @@ export default function HomePage() {
           <video
             autoPlay
             muted
+            loop
             className="absolute inset-0 w-full h-full object-cover"
           >
           <source src="/assets/banner website menur.mp4" type="video/mp4" />
@@ -30,7 +31,7 @@ export default function HomePage() {
             transition={{ duration: 1 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-8 font-sans drop-shadow-lg">
-              Selamat Datang di Desa Suradadi david ganteng
+              Selamat Datang di Website Resmi Desa Suradadi
             </h1>
             <a
               href="/profil"
@@ -53,10 +54,10 @@ export default function HomePage() {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Tentang Desa Menur</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Tentang Desa Suradadi</h2>
             <p className="text-gray-700 font-serif leading-relaxed text-justify">
-              Desa Menur adalah salah satu dari 19 desa yang terletak di Kecamatan Mranggen, Kabupaten Demak. Desa Menur memiliki luas sebesar 3,37 km2 yang didominasi oleh Lahan Pertanian Padi dan Jagung. Dapatkan informasi desa lebih lanjut disini
-            </p>
+              Desa Suradadi merupakan denyut nadi Kecamatan Suradadi di Kabupaten Tegal, karena menjadi pusat pemerintahan, dilengkapi dengantopografi dataran rendah pantai yang hanya sekitar 2 meter di atas permukaan laut dan curah hujan rata-rata tahunan mencapai 2.000 mm, tanah datar nan subur di desa ini menjadi berkah bagi pertanian, khususnya padi, umbi-umbian, dan aneka sayuran.
+                          </p>
           </motion.div>
 
           {/* PIRAMIDA */}
@@ -72,7 +73,7 @@ export default function HomePage() {
               <MapPinned className="w-12 h-12 mx-auto text-green-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2 font-sans text-gray-800">Wilayah Desa</h3>
               <p className="text-gray-700 font-serif">
-                Informasi geografi dan batas wilayah Desa Menur.
+                Informasi geografi dan batas wilayah Desa Suradadi.
               </p>
             </motion.div>
 

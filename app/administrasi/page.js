@@ -30,7 +30,7 @@ export default function LamanAdministrasi() {
   ]
 
   const Box = ({ children, className = '' }) => (
-    <div className={`bg-lime-200 text-center rounded-2xl p-5 shadow font-medium text-gray-800 ${className}`}>
+    <div className={`bg-blue-200 text-center rounded-2xl p-5 shadow font-medium text-gray-800 ${className}`}>
       {children}
     </div>
   )
@@ -41,7 +41,7 @@ export default function LamanAdministrasi() {
         <section className="flex flex-col md:flex-row justify-between items-center gap-6 bg-white p-6 rounded-xl shadow-lg ">
         {/* TEKS DI KIRI */}
         <div className="text-left space-y-3 max-w-xl">
-            <h2 className="text-2xl font-bold text-lime-700">Informasi Administratif Desa</h2>
+            <h2 className="text-2xl font-bold text-blue-500">Informasi Administratif Desa</h2>
             <p className="text-gray-700 leading-relaxed text-justify">
             Data administratif Desa Menur menyajikan informasi lengkap seputar struktur kewilayahan,
             jumlah RW dan RT, data kepala keluarga, serta total penduduk berdasarkan jenis kelamin.
@@ -50,36 +50,35 @@ export default function LamanAdministrasi() {
         </div>
 
         {/* IKON DI KANAN */}
-        <div className="text-lime-600">
+        <div className="text-blue-500">
             <FileText size={80} strokeWidth={1.5} className="mx-auto" />
         </div>
         </section>
 
       {/* Wilayah Dukuh */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 text-lime-700">
+        <div className="flex items-center gap-2 text-blue-500">
           <MapPin size={28} />
-          <h2 className="text-2xl font-semibold">Wilayah Dukuh</h2>
+          <h2 className="text-2xl font-semibold">Wilayah Desa</h2>
         </div>
         <div className="flex justify-center gap-6 flex-wrap">
-          <Box>Dukuh Menur</Box>
-          <Box>Dukuh Semen</Box>
+          <Box>Desa Menur</Box>
         </div>
       </section>
 
       {/* RW & RT */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 text-yellow-700">
+        <div className="flex items-center gap-2 text-blue-500">
           <Landmark size={28} />
           <h2 className="text-2xl font-semibold">Jumlah RW & RT</h2>
         </div>
         <div className="flex justify-center gap-6 flex-wrap">
           <Box>
-            <p className="text-5xl">4</p>
+            <p className="text-5xl">17</p>
             <p>RW</p>
           </Box>
           <Box>
-            <p className="text-5xl">27</p>
+            <p className="text-5xl">54</p>
             <p>RT</p>
           </Box>
         </div>
@@ -87,12 +86,12 @@ export default function LamanAdministrasi() {
 
       {/* Jumlah Kepala Keluarga */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 text-green-700 justify-center">
+        <div className="flex items-center gap-2 text-blue-500 justify-center">
           <Home size={28} />
           <h2 className="text-2xl font-semibold">Jumlah Kepala Keluarga</h2>
         </div>
         <div className="flex justify-center">
-          <Box className="w-full max-w-md bg-green-300 text-4xl">
+          <Box className="w-full max-w-md bg-blue-300 text-4xl">
             1.494 Kepala Keluarga
           </Box>
         </div>
@@ -100,11 +99,11 @@ export default function LamanAdministrasi() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <ResponsiveContainer width="100%" height={250}>
             <BarChart data={dataKK}>
-              <CartesianGrid strokeDasharray="3 3" />
+              <CartesianGrid strokeDasharray="3 3" /> 
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="jumlah" fill="#4ade80" />
+              <Bar dataKey="jumlah" fill="#60a5fa" />
             </BarChart>
           </ResponsiveContainer>
           <div className="space-y-4">
@@ -117,7 +116,7 @@ export default function LamanAdministrasi() {
 
       {/* Jumlah Penduduk */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 text-blue-700 justify-center">
+        <div className="flex items-center gap-2 text-blue-500 justify-center">
           <Users size={28} />
           <h2 className="text-2xl font-semibold">Jumlah Penduduk</h2>
         </div>

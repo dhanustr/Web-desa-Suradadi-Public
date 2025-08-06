@@ -7,7 +7,7 @@ function formatTanggal(dateString) {
 }
 
 export default async function BeritaPage() {
-  const res = await fetch('https://api.desamenur.com/api/v1/berita', {
+  const res = await fetch('http://localhost:8000/api/v1/berita', {
     cache: 'no-store',
     headers: { Accept: 'application/json' },
   })
@@ -22,12 +22,12 @@ export default async function BeritaPage() {
 
   return (
     <div className="max-w-screen-xl mx-auto py-24 px-4 lg:px-8 bg-gradient-to-b from-white to-white min-h-screen">
-      <h1 className="text-3xl font-bold text-blue-900 mb-4 border-b-4 border-green-500 inline-block pb-2">
+      <h1 className="text-3xl font-bold text-blue-500 mb-4 border-b-4 border-blue-500 inline-block pb-2">
         Berita Desa
       </h1>
 
       <p className="text-gray-700 text-base mb-10 max-w-3xl">
-        Temukan informasi terbaru seputar kegiatan, pengumuman resmi, dan perkembangan terkini di Desa Menur. 
+        Temukan informasi terbaru seputar kegiatan, pengumuman resmi, dan perkembangan terkini di Desa Suradadi. 
         Semua berita disampaikan langsung oleh Pemerintah Desa sebagai bentuk transparansi dan keterbukaan informasi bagi masyarakat.
       </p>
 
@@ -40,7 +40,7 @@ export default async function BeritaPage() {
           >
             {berita.gambar && (
               <img
-                src={`https://api.desamenur.com/storage/${berita.gambar}`}
+                src={`http://localhost:8000/storage/berita/${berita.gambar}`}
                 alt={berita.judul}
                 className="w-full h-56 object-cover"
               />

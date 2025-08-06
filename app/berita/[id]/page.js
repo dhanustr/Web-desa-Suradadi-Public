@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 export default async function BeritaDetail({ params }) {
   const { id } = params;
 
-  const res = await fetch(`https://api.desamenur.com/api/v1/berita/${id}`, {
+  const res = await fetch(`http://localhost:8000/api/v1/berita/${id}`, {
     cache: 'no-store',
     headers: { Accept: 'application/json' },
   });
@@ -21,7 +21,7 @@ export default async function BeritaDetail({ params }) {
 
       {berita.gambar && (
         <img
-          src={`https://api.desamenur.com/storage/${berita.gambar}`}
+          src={`http://localhost:8000/storage/berita/${berita.gambar}`}
           alt={berita.judul}
           className="w-full h-96 object-cover rounded-md mb-6"
         />

@@ -16,7 +16,7 @@ export default function ProfilDesaPage() {
           </h2>
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200 bg-opacity-90 backdrop-blur-sm">
             <p className="text-gray-700 font-serif leading-relaxed text-justify">
-              Desa Menur adalah salah satu dari 19 desa yang terletak di Kecamatan Mranggen, salah satu desa dari 243 desa yang berada di Kabupaten Demak Provinsi Jawa Tengah. Desa Menur merupakan salah satu Desa Adat di Negara Republik Indonesia sebagaimana merupakan bagian dari desa yang dimaksud dalam Undang-Undang Nomor 6 Tahun 2014, terletak di barat laut Kecamatan Mranggen memiliki 2 dukuh yaitu dukuh Menur dan dukuh Semen.
+              Desa Suradadi adalah salah satu dari 18 desa yang terletak di Kecamatan Suradadi, Kabupaten Tegal, Provinsi Jawa Tengah. Desa Suradadi merupakan pusat pemerintahan dari Kecamatan Suradadi. selain itu, masyarakat suradadi mayoritas bermata pencaharian sebagai petani dan nelayan
             </p>
           </div>
         </div>
@@ -30,13 +30,12 @@ export default function ProfilDesaPage() {
           </h2>
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200 bg-opacity-90 backdrop-blur-sm">
             <p className="text-gray-700 font-serif leading-relaxed text-justify">
-              <strong>Visi:</strong> Terwujudnya masyarakat Desa Menur yang sejahtera dan dinamis<br/>
+              <strong>Visi:</strong> Gotong royong, bahu membahu masyarakat madani<br/>
               <strong>Misi:</strong><br/>
-              1) Mewujudkan desa yang bersih, amanah, dan transparan<br/>
-              2) Berorientasi pada optimalisasi pelayanan pada masyarakat<br/>
-              3) Meningkatkan kesejahteraan sosial ekonomi masyarakat<br/>
-              4) Meningkatkan kualitas SDM yang berbasis iman dan taqwa<br/>
-              5) Mewujudkan lingkungan masyarakat yang bersih, aman, tertib, dan teratur
+              1) meningkatkan kapasitas kelembagaan serta sarana dan prasarana usaha dibidang perikanan dan pertanian yang mendukung terwujudnya desa SURADADI sebagai desa swadaya<br/>
+              2) meningkatkan kualitas kehidupan dengan membangun budaysehat, budaya belajar dan penguatan peran perempuan dalam pembangunan<br/>
+              3) meningkatkan jumlah pendapatan asli desa dan mengelola secara transparan, jujur, proposional untuk sebesar-besarnya kesejahteraan rakyat<br/>
+              4) mewujudkan perintah desa yang baik dan bersih melalui peningkatan pelayanan pemerintah umum<br/>
             </p>
           </div>
         </div>
@@ -79,19 +78,19 @@ export default function ProfilDesaPage() {
         <tbody>
             <tr>
             <td className="px-4 py-2 border-b">Utara</td>
-            <td className="px-4 py-2 border-b">Desa Wringinjajar / Desa Waru</td>
+            <td className="px-4 py-2 border-b">Laut Jawa</td>
             </tr>
             <tr>
             <td className="px-4 py-2 border-b">Timur</td>
-            <td className="px-4 py-2 border-b">Desa Waru / Desa Tamansari / Desa Ngemplak</td>
+            <td className="px-4 py-2 border-b">Desa Bojongsana</td>
             </tr>
             <tr>
             <td className="px-4 py-2 border-b">Selatan</td>
-            <td className="px-4 py-2 border-b">Desa Brumbung</td>
+            <td className="px-4 py-2 border-b">Desa Kertasari dan Desa Jatimulya</td>
             </tr>
             <tr>
             <td className="px-4 py-2 border-b">Barat</td>
-            <td className="px-4 py-2 border-b">Desa Jamus / Desa Wringinjajar</td>
+            <td className="px-4 py-2 border-b">Desa Purwahamba</td>
             </tr>
         </tbody>
         </table>
@@ -101,21 +100,21 @@ export default function ProfilDesaPage() {
         <thead>
             <tr className="bg-gray-100">
             <th className="px-4 py-2 border-b">Kategori</th>
-            <th className="px-4 py-2 border-b">Luas (km²)</th>
+            <th className="px-4 py-2 border-b">Luas (Hektar)</th>
             </tr>
         </thead>
         <tbody>
             <tr>
             <td className="px-4 py-2 border-b">Total Luas</td>
-            <td className="px-4 py-2 border-b font-semibold">337,1</td>
+            <td className="px-4 py-2 border-b font-semibold">624</td>
             </tr>
             <tr>
             <td className="px-4 py-2 border-b">Bangunan & Pekarangan</td>
-            <td className="px-4 py-2 border-b">82</td>
+            <td className="px-4 py-2 border-b">113</td>
             </tr>
             <tr>
             <td className="px-4 py-2">Sawah</td>
-            <td className="px-4 py-2">255,1</td>
+            <td className="px-4 py-2">511</td>
             </tr>
         </tbody>
         </table>
