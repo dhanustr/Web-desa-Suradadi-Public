@@ -18,7 +18,7 @@ export default function HomePage() {
             loop
             className="absolute inset-0 w-full h-full object-cover"
           >
-          <source src="/assets/banner website menur.mp4" type="video/mp4" />
+          <source src="/assets/Video Suradadi.mp4" type="video/mp4" />
           Browser kamu tidak mendukung pemutaran video.
         </video>
 

@@ -15,7 +15,7 @@ export default async function BeritaDetail({ params }) {
 
   return (
     <div className="max-w-3xl mx-auto py-24 px-6">
-      <h1 className="text-3xl font-bold text-blue-900 mb-6 border-b-2 border-green-500 pb-2">
+      <h1 className="text-3xl font-bold text-blue-900 mb-6 border-b-2 border-blue-500 pb-2">
         {berita.judul}
       </h1>
 

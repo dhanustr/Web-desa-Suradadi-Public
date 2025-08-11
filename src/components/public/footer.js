@@ -13,6 +13,9 @@ export default function Footer() {
             height={80}
             className="rounded-full"
           />
+        </div>
+
+        <div className='flex flex-col space-y-1'> 
           <div className="space-y-1">
             <h4 className="text-yellow-700 font-bold text-xs">Pemerintah Desa Suradadi</h4>
             <p className="text-xs">Jalan Purwa No. 11</p>
@@ -22,20 +25,12 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Kolom 2 - Kontak */}
+        {/* Kolom 3 - Kontak */}
         <div className="flex flex-col space-y-1">
           <h4 className="text-yellow-700 font-bold text-xs">Hubungi Kami</h4>
-          <p className="text-xs">📞 0821-2345-6789</p>
-          <p className="text-xs">✉ desa.menur@demakkab.go.id</p>
-          <p className="text-xs">Jam Kerja: Senin - Jumat, 08:00 - 16:00</p>
-        </div>
-
-        {/* Kolom 3 - Nomor Penting */}
-        <div className="flex flex-col space-y-1">
-          <h4 className="text-yellow-700 font-bold text-xs">Nomor Telepon Penting</h4>
-          <p className="text-xs">Ahmad Siswoto / Kades Menur: 0813-xxxx-xxxx</p>
-          <p className="text-xs">Ambulan Desa: 0812-xxxx-xxxx</p>
-          <p className="text-xs">Pos Keamanan: 0815-xxxx-xxxx</p>
+          <p className="text-xs">Ani Sugiharti / 0822-2959-7268</p>
+          <p className="text-xs">tubaguskamaluddin@gmail.com</p>
+          <p className="text-xs">Jam Kerja: Senin - Kamis (08:00 - 14:00) dan Jumat (08.00 - 11.00)</p>
         </div>
       </div>
 
