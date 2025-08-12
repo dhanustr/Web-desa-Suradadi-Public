@@ -16,7 +16,7 @@ export default function ProfilDesaPage() {
           </h2>
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200 bg-opacity-90 backdrop-blur-sm">
             <p className="text-gray-700 font-serif leading-relaxed text-justify">
-              Desa Suradadi adalah salah satu dari 18 desa yang terletak di Kecamatan Suradadi, Kabupaten Tegal, Provinsi Jawa Tengah. Desa Suradadi merupakan pusat pemerintahan dari Kecamatan Suradadi. selain itu, masyarakat suradadi mayoritas bermata pencaharian sebagai petani dan nelayan
+              Desa Suradadi adalah salah satu dari 11 desa yang terletak di kecamatan Suradadi, Kabupaten Tegal, Provinsi Jawa Tengah. Desa Suradadi merupakan pusat pemerintahan dari Kecamatan Suradadi. selain itu, masyarakat suradadi mayoritas bermata pencaharian sebagai petani dan nelayan
             </p>
           </div>
         </div>

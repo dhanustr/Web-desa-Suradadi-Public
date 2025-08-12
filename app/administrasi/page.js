@@ -20,13 +20,13 @@ import {
 
 export default function LamanAdministrasi() {
   const dataKK = [
-    { name: 'Laki-Laki', jumlah: 1309 },
-    { name: 'Perempuan', jumlah: 185 },
+    { name: 'Laki-Laki', jumlah: 3034 },
+    { name: 'Perempuan', jumlah: 530 },
   ]
 
   const dataPenduduk = [
-    { name: 'Laki-Laki', jumlah: 2394 },
-    { name: 'Perempuan', jumlah: 2298 },
+    { name: 'Laki-Laki', jumlah: 7842 },
+    { name: 'Perempuan', jumlah: 7446 },
   ]
 
   const Box = ({ children, className = '' }) => (
@@ -92,7 +92,7 @@ export default function LamanAdministrasi() {
         </div>
         <div className="flex justify-center">
           <Box className="w-full max-w-md bg-blue-300 text-4xl">
-            1.494 Kepala Keluarga
+            3.564 Kepala Keluarga
           </Box>
         </div>
 
@@ -108,8 +108,8 @@ export default function LamanAdministrasi() {
           </ResponsiveContainer>
           <div className="space-y-4">
             <p className="font-medium text-gray-700">Rincian Kepala Keluarga:</p>
-            <Box>Kepala Keluarga Laki-Laki: 1.309</Box>
-            <Box>Kepala Keluarga Perempuan: 185</Box>
+            <Box>Kepala Keluarga Laki-Laki: 3.034</Box>
+            <Box>Kepala Keluarga Perempuan: 530</Box>
           </div>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function LamanAdministrasi() {
         </div>
         <div className="flex justify-center">
           <Box className="text-4xl bg-blue-300 w-full max-w-md">
-            4.692 Penduduk
+            15.288 Penduduk
           </Box>
         </div>
 
@@ -138,8 +138,8 @@ export default function LamanAdministrasi() {
           </ResponsiveContainer>
           <div className="space-y-4">
             <p className="font-medium text-gray-700">Rincian Penduduk:</p>
-            <Box className="bg-blue-300">Penduduk Laki-Laki: 2.394</Box>
-            <Box className="bg-pink-300">Penduduk Perempuan: 2.298</Box>
+            <Box className="bg-blue-300">Penduduk Laki-Laki: 7.842</Box>
+            <Box className="bg-pink-300">Penduduk Perempuan: 7.446</Box>
           </div>
         </div>
       </section>
