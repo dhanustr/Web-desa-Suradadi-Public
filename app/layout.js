@@ -17,8 +17,8 @@ const merriweather = Merriweather({
 })
 
 export const metadata = {
-  title: 'Desa Menur',
-  description: 'Website Resmi Desa Menur',
+  title: 'Desa Suradadi',
+  description: 'Website Resmi Desa Suradadi',
 }
 
 export default function RootLayout({ children }) {

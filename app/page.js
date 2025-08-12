@@ -114,7 +114,7 @@ export default function HomePage() {
       {/* PETA DESA */}
       <section className="px-4 pb-24" id="peta-desa">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6 font-sans text-gray-800">Peta Interaktif Desa Menur</h2>
+          <h2 className="text-3xl font-bold mb-6 font-sans text-gray-800">Peta Interaktif Desa Suradadi</h2>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <PetaDesa />
           </div>

@@ -43,7 +43,7 @@ export default function LamanAdministrasi() {
         <div className="text-left space-y-3 max-w-xl">
             <h2 className="text-2xl font-bold text-blue-500">Informasi Administratif Desa</h2>
             <p className="text-gray-700 leading-relaxed text-justify">
-            Data administratif Desa Menur menyajikan informasi lengkap seputar struktur kewilayahan,
+            Data administratif Desa Suradadi menyajikan informasi lengkap seputar struktur kewilayahan,
             jumlah RW dan RT, data kepala keluarga, serta total penduduk berdasarkan jenis kelamin.
             Informasi ini disajikan secara visual agar mudah dipahami oleh masyarakat.
             </p>
@@ -62,7 +62,7 @@ export default function LamanAdministrasi() {
           <h2 className="text-2xl font-semibold">Wilayah Desa</h2>
         </div>
         <div className="flex justify-center gap-6 flex-wrap">
-          <Box>Desa Menur</Box>
+          <Box>Desa Suradadi</Box>
         </div>
       </section>
 
